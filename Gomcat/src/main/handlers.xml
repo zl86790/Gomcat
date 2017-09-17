@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handlerConfigs>
+	<handlerConfig id="1" path="/hello" handler="SayHello" template="tmpl"/>
+</handlerConfigs>
