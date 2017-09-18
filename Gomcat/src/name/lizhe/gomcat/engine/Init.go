@@ -11,7 +11,7 @@ func Init(handlerConfigs domain.HandlerConfigs) {
 	for id, hc := range handlerConfigs.HandlerConfig {
 		log.Println(id, " ", hc)
 		http.HandleFunc(hc.Path, handler.DoLogic)
-		http.ListenAndServe(":8106", nil)
 	}
+	http.ListenAndServe(":8106", nil)
 }
 
