@@ -2,9 +2,9 @@ package main
 
 import (
 	"log"
-	"name/lizhe/gomcat/engine"
-	"name/lizhe/gomcat/config/domain"
-	"name/lizhe/gomcat/tool/file/reader/impl"
+	"main/name/lizhe/gomcat/engine"
+	"main/name/lizhe/gomcat/config/domain"
+	"main/name/lizhe/gomcat/tool/file/reader/impl"
 )
 
 func main() {
